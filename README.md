@@ -4,5 +4,4 @@ Tracely is comprehensive tool for squashing your game's bugs and making you app 
 Tracely currently supports Unity versions 3.x through 5.x
 
 ***
-#### Installing the Android Unity SDK
-
+#### Documentation can be found [here](https://github.com/Tracely/Tracely-Unity-Android/wiki)
