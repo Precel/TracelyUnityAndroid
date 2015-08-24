@@ -24,6 +24,8 @@ public class TracelyManager : MonoBehaviour {
 
 	#pragma warning restore
 
+	private string placeholderMessage;
+
 	//Constructor
 	public TracelyManager() {
 
@@ -45,7 +47,7 @@ public class TracelyManager : MonoBehaviour {
 	}
 
 	private void Awake() {
-		if(TracelyManager.Instance != null) {
+		if(_instance != null) {
 			UnityEngine.Debug.LogWarning("Found duplicate Tracely instance, destroying.");
 			Destroy(this.gameObject);
 		}
@@ -57,7 +59,14 @@ public class TracelyManager : MonoBehaviour {
 
 	#region Helpers
 	private void Log(string msg) {
-		UnityEngine.Debug.Log("[TracelyManager] "+msg);
+		placeholderMessage = msg;
+
+		//It's impossible to Debug.Log from logMessageReceived callback, using plugins log function
+		#if UNITY_ANDROID
+			if(ExceptionHandlerPlugin != null) ExceptionHandlerPlugin.CallStatic("Logger", placeholderMessage);
+		#endif
+
+		UnityEngine.Debug.Log("[TracelyManager] "+placeholderMessage);
 	}
 	#endregion
 
@@ -123,16 +132,22 @@ public class TracelyManager : MonoBehaviour {
 		}
 
 		if(TracelyManager.ExceptionHandlerPlugin != null) {
+
+			StackTrace trace = new StackTrace(4, true);
+			TracelyManager.Instance.Log(("Caught exception. IsDebug? "+UnityEngine.Debug.isDebugBuild+", Has StackTrace? " + (stack != null)).ToString() );
+			TracelyManager.Instance.Log("Diagnostics StackTrace: "+trace.ToString());
+
 			try {
-				if(stack == null) { // Unfortunately development builds don't pass stack parameter
-					StackTrace trace = new StackTrace(true);
+				if(stack == null) { // Unfortunately production builds don't pass stack parameter
 					stack = trace.ToString();
+
+					TracelyManager.Instance.Log("StackTrace from exception was null, using System.Diagnostics.StackTrace: "+stack);
 				}
 
 				TracelyManager.ExceptionHandlerPlugin.CallStatic ("RegisterUnhandledException", GetName(name), GetCause(name), stack);
 			} 
 			catch (System.Exception e) {
-				UnityEngine.Debug.Log("Unable to write exception to tracely.io plugin. "+GetName(name)+" - "+GetCause(name)+", because of "+e.Message);
+				TracelyManager.Instance.Log("Unable to write exception to tracely.io plugin. "+GetName(name)+" - "+GetCause(name)+", because of "+e.Message);
 			}
 		}
 	}
@@ -142,7 +157,6 @@ public class TracelyManager : MonoBehaviour {
 		string cause = "";
 		if(colonIndex > 0) {
 			cause = msg.Substring(colonIndex+2, msg.Length-colonIndex-2);
-			// TracelyManager.Instance.cause = cause;
 		} else {
 			cause = "Unity Engine Exception";
 		}
@@ -164,14 +178,15 @@ public class TracelyManager : MonoBehaviour {
 
 
 
-
 	#region Public Functions
 
 	public static void SendHandledException(System.Exception e) {
+		TracelyManager.Instance.Log("Sending handled exception...");
 		ExceptionHandlerPlugin.CallStatic("RegisterHandledException", GetName(e.Message), GetCause(e.Message), e.StackTrace);
 	}
 
 	public static void SendUnhandledException(System.Exception e) {
+		TracelyManager.Instance.Log("Sending unhandled exception...");
 		ExceptionHandlerPlugin.CallStatic("RegisterHandledException", GetName(e.Message), GetCause(e.Message), e.StackTrace);
 	}
 
