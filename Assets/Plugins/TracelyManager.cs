@@ -1,31 +1,35 @@
-﻿using UnityEngine;
+﻿// Tracely.io Android Unity Plugin
+// Version 0.12
+// All Rights Reserved
+
+using UnityEngine;
 using System.Collections;
 using System.Diagnostics;
 
 public class TracelyManager : MonoBehaviour {
 
-	// Tracely.io Android Unity Plugin
-	// Version 0.12
-	// All Rights Reserved
-
 	public string APIKey = "";
+
+	#pragma warning disable
 
 	private string PluginClassName = "io.rwilinski.tracely.TracelyManager";
 
-	//Android Classes
+	//Android Classes 	
 	private static AndroidJavaClass ExceptionHandlerPlugin;
 	private AndroidJavaObject ExceptionHandlerInstance;
-	private AndroidJavaClass AdsPlugin;
-	private AndroidJavaObject AdsInstance;
+
 	private AndroidJavaClass unityPlayer;
 	private AndroidJavaObject activity;
 	private AndroidJavaObject context;
 
+	#pragma warning restore
+
 	//Constructor
 	public TracelyManager() {
+
 	}
 
-	//Singleton
+	#region Singleton
 	private static TracelyManager _instance;
 	public static TracelyManager Instance {
 		get {
@@ -37,25 +41,65 @@ public class TracelyManager : MonoBehaviour {
 	private static void CreateGameObject() {
 		GameObject go = new GameObject();
 		go.name = "Tracely";
-		TracelyManager tr = go.AddComponent<TracelyManager>();
+		go.AddComponent<TracelyManager>();
 	}
 
 	private void Awake() {
+		if(TracelyManager.Instance != null) {
+			UnityEngine.Debug.LogWarning("Found duplicate Tracely instance, destroying.");
+			Destroy(this.gameObject);
+		}
+
 		_instance = this;
 		DontDestroyOnLoad(this.gameObject);
 	}
+	#endregion
 
-	//Helper Logger
+	#region Helpers
 	private void Log(string msg) {
 		UnityEngine.Debug.Log("[TracelyManager] "+msg);
 	}
+	#endregion
 
-	public void OnEnable() {
+
+	#region Internal Functions
+
+	private void OnEnable() {
 		Log("Starting Tracely...");
+
 		System.AppDomain.CurrentDomain.UnhandledException += _OnUnresolvedExceptionHandler;
-		Application.RegisterLogCallback (_OnDebugLogCallbackHandler);
+		Application.logMessageReceived += _OnDebugLogCallbackHandler;
 		
 		RegisterExceptionHandler();
+	}
+
+	private void OnDisable() {
+		Log("Unsubscribing delegates");
+
+		System.AppDomain.CurrentDomain.UnhandledException -= _OnUnresolvedExceptionHandler;
+		Application.logMessageReceived -= _OnDebugLogCallbackHandler;
+	}
+
+	//Android Layer Exception Handler and communication module
+	public void RegisterExceptionHandler() {
+		#if UNITY_ANDROID && !UNITY_EDITOR
+		try {
+			unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+			activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+			context = activity.Call<AndroidJavaObject>("getApplicationContext");
+
+			ExceptionHandlerPlugin = new AndroidJavaClass(PluginClassName);
+			ExceptionHandlerPlugin.CallStatic("SetApiKey", this.APIKey);
+			ExceptionHandlerPlugin.CallStatic<bool>("RegisterExceptionHandler", context);
+
+			Log("Exception Handler registering success!");
+		}
+		catch(System.Exception e) {
+			Log("Failed to register exception handler, details: "+e.Message+" | "+e.StackTrace);
+		}
+		#else
+		Log("Tracely is not compatible yet with that platform yet :(");
+		#endif
 	}
 
 	static private void _OnUnresolvedExceptionHandler (object sender, System.UnhandledExceptionEventArgs args)
@@ -88,38 +132,9 @@ public class TracelyManager : MonoBehaviour {
 				TracelyManager.ExceptionHandlerPlugin.CallStatic ("RegisterUnhandledException", GetName(name), GetCause(name), stack);
 			} 
 			catch (System.Exception e) {
-				UnityEngine.Debug.Log("Unable to write exception to tracely.io plugin. "+GetName(name)+" - "+GetCause(name));
+				UnityEngine.Debug.Log("Unable to write exception to tracely.io plugin. "+GetName(name)+" - "+GetCause(name)+", because of "+e.Message);
 			}
 		}
-	}
-
-	public static void SendHandledException(System.Exception e) {
-		ExceptionHandlerPlugin.CallStatic("RegisterHandledException", GetName(e.Message), GetCause(e.Message), e.StackTrace);
-	}
-
-	public static void SendUnhandledException(System.Exception e) {
-		ExceptionHandlerPlugin.CallStatic("RegisterHandledException", GetName(e.Message), GetCause(e.Message), e.StackTrace);
-	}
-
-	public void RegisterExceptionHandler() {
-		#if UNITY_ANDROID && !UNITY_EDITOR
-		try {
-			unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-			activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
-			context = activity.Call<AndroidJavaObject>("getApplicationContext");
-
-			ExceptionHandlerPlugin = new AndroidJavaClass(PluginClassName);
-			ExceptionHandlerPlugin.CallStatic("SetApiKey", this.APIKey);
-			ExceptionHandlerPlugin.CallStatic<bool>("RegisterExceptionHandler", context);
-
-			Log("Exception Handler registering success!");
-		}
-		catch(System.Exception e) {
-			Log("Failed to register exception handler, details: "+e.Message+" | "+e.StackTrace);
-		}
-		#else
-		Log("Tracely is not compatible yet with that platform yet :(");
-		#endif
 	}
 
 	private static string GetCause(string msg) {
@@ -145,47 +160,24 @@ public class TracelyManager : MonoBehaviour {
 		return name;
 	}
 
+	#endregion
+
+
+
+
+	#region Public Functions
+
+	public static void SendHandledException(System.Exception e) {
+		ExceptionHandlerPlugin.CallStatic("RegisterHandledException", GetName(e.Message), GetCause(e.Message), e.StackTrace);
+	}
+
+	public static void SendUnhandledException(System.Exception e) {
+		ExceptionHandlerPlugin.CallStatic("RegisterHandledException", GetName(e.Message), GetCause(e.Message), e.StackTrace);
+	}
+
 	public void GetDeviceID() {
 		Log("Device ID: "+SystemInfo.deviceUniqueIdentifier);
 	}
 
-	public void SimulateStackOverflow() {
-		ExceptionHandlerPlugin.CallStatic("SimulateHardCrash", context);
-	}
-
-	public void UnityStackOverflow() {
-		Overflow(Random.Range(0,1000000).ToString());
-	}
-
-	public void DivideByZero() {
-		int eight = 8;
-		int zero = 0;
-		int result = eight / zero;
-	}
-
-	public void NullPointerException() {
-		Stack s = null;
-		s.Push(1);
-	}
-
-	public void SimulateMissingPermission() {
-		ExceptionHandlerPlugin.CallStatic("SimulateHardCrash", context);
-	}
-
-	public void SystemException() {
-		throw new System.Exception();
-	}
-
-	public void ParseError() {
-		int.Parse("test");
-	}
-
-	public void ArrayIndexOutOfRange() {
-		int[] arr = {1,2,3};
-		int result = arr[4];
-	}
-
-	private void Overflow(string s) {
-		Overflow(s);
-	}
+	#endregion
 }

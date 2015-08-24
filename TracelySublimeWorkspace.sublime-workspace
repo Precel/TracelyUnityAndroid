@@ -1,0 +1,1477 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Lo",
+				"LoggedOut	LoginStatus"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"gameOver",
+				"gameOverCubeImage	Image"
+			],
+			[
+				"GetComo",
+				"GetComponent<T>()	T"
+			],
+			[
+				"C",
+				"Count	int { get; }"
+			],
+			[
+				"Ve",
+				"Vector3()	Vector3()"
+			],
+			[
+				"Sound",
+				"SoundEngineChild	SoundEngineChild"
+			],
+			[
+				"In",
+				"Instance	SoundEngine { get; }"
+			],
+			[
+				"AudioS",
+				"AudioSource	AudioSource"
+			],
+			[
+				"SoundE",
+				"SoundEngineChild	SoundEngineChild"
+			],
+			[
+				"Catmull",
+				"CatmullRomSpline	CatmullRomSpline"
+			],
+			[
+				"cub",
+				"cubesCollectedStreak	int"
+			],
+			[
+				"gauge",
+				"streakGauge	Image"
+			],
+			[
+				"strea",
+				"streakPanel	CanvasGroup"
+			],
+			[
+				"Catmu",
+				"CatmullRomSpline	CatmullRomSpline"
+			],
+			[
+				"Ie",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"lo",
+				"loginStatus	LoginStatus { get; set; }"
+			],
+			[
+				"BSpo",
+				"BSpotManager	BSpotManager"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"roll",
+				"roll_5_profit"
+			],
+			[
+				"rol",
+				"roll_10_profit"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"is",
+				"is_10_good"
+			],
+			[
+				"m_",
+				"m_avg_25"
+			],
+			[
+				"delega",
+				"delegateMethod	delegateMethod"
+			],
+			[
+				"v",
+				"virtual	virtual"
+			],
+			[
+				"GetCompo",
+				"GetComponent<T>()	T"
+			],
+			[
+				"lock",
+				"lockedLabel	Text"
+			],
+			[
+				"d",
+				"unlockDistance	int"
+			],
+			[
+				"Prefer",
+				"PreferencesSubscriber	PreferencesSubscriber"
+			],
+			[
+				"T_",
+				"T_String	Type"
+			],
+			[
+				"new",
+				"newValue	float"
+			],
+			[
+				"Acco",
+				"Accounts.createUser	Meteor: Accounts.createUser(options, [callback])"
+			],
+			[
+				"team",
+				"teamWonIndex	int"
+			],
+			[
+				"vict",
+				"victoryTeamText	Text"
+			],
+			[
+				"rise",
+				"riseReach	int"
+			],
+			[
+				"part",
+				"particles	Particle[]"
+			],
+			[
+				"par",
+				"particles	Particle[]"
+			],
+			[
+				"isS",
+				"isSuccess	bool"
+			],
+			[
+				"active",
+				"activePlayer	int"
+			],
+			[
+				"act",
+				"activePlayer	int"
+			],
+			[
+				"partic",
+				"particleSystems	List<ParticleSystem>"
+			],
+			[
+				"target",
+				"targetUnit	Unit"
+			],
+			[
+				"acti",
+				"activeUnit	int"
+			],
+			[
+				"tran",
+				"Translate(Vector3 translation)	void"
+			],
+			[
+				"my",
+				"myTransform	Transform"
+			],
+			[
+				"local",
+				"localPosition	Vector3 { get; set; }"
+			],
+			[
+				"toast",
+				"toastCanvas	CanvasGroup"
+			],
+			[
+				"Canvas",
+				"CanvasGroup	CanvasGroup"
+			],
+			[
+				"en",
+				"energyLeft	int"
+			],
+			[
+				"per",
+				"perlinScale	float"
+			],
+			[
+				"old",
+				"oldPerlinScale	float"
+			],
+			[
+				"perl",
+				"perlinOffset	Vector2"
+			],
+			[
+				"oldP",
+				"oldPerlinOffset	Vector2"
+			],
+			[
+				"ac",
+				"activeUnit	int"
+			],
+			[
+				"att",
+				"attackCost	int"
+			],
+			[
+				"attack",
+				"attackCost	int"
+			],
+			[
+				"bombo",
+				"bombCost	int"
+			],
+			[
+				"unitAttack",
+				"unitAttackTargetHealthBackgroundLabel	Text"
+			],
+			[
+				"unitAatack",
+				"unitInformationAttackLabel	Text"
+			],
+			[
+				"Clamp",
+				"Clamp(float value, float min, float max)	float"
+			],
+			[
+				"parti",
+				"particleSystem	Component { get; }"
+			],
+			[
+				"a",
+				"activePlayer	int"
+			],
+			[
+				"bomb",
+				"bombCost	int"
+			],
+			[
+				"bom",
+				"bombCost	int"
+			],
+			[
+				"e",
+				"energyLeft	int"
+			],
+			[
+				"targ",
+				"targetIndex	int"
+			],
+			[
+				"level",
+				"levelHeight	int"
+			],
+			[
+				"hexes",
+				"hexesVisited	bool[]"
+			],
+			[
+				"attac",
+				"attackReach	int"
+			],
+			[
+				"Bomb",
+				"bombReach	int"
+			],
+			[
+				"Uni",
+				"Unit	Unit"
+			],
+			[
+				"GetMouseButton",
+				"GetMouseButtonUp(int button)	bool"
+			],
+			[
+				"H",
+				"HalfHighlight(HexUnit src)	void"
+			],
+			[
+				"mode",
+				"actionMode	SelectedMode"
+			],
+			[
+				"unitInfor",
+				"unitInformationAttackLabel	Text"
+			],
+			[
+				"Rec",
+				"RectTransform	RectTransform"
+			],
+			[
+				"unitInfo",
+				"unitInformationHealthLabel	Text"
+			],
+			[
+				"unitInformati",
+				"unitInformationHealthBackgroundLabel	Text"
+			],
+			[
+				"unitInformatio",
+				"unitInformationHealthLabel	Text"
+			],
+			[
+				"unit",
+				"unitInformationCanvas	CanvasGroup"
+			],
+			[
+				"false",
+				"false	false"
+			],
+			[
+				"col",
+				"color	Color { get; set; }"
+			],
+			[
+				"Remove",
+				"Remove(T item)	bool"
+			],
+			[
+				"Ins",
+				"Instance	GameScenario { get; }"
+			],
+			[
+				"tile",
+				"tileOwned	Transform"
+			],
+			[
+				"shor",
+				"shortestPathDistance	int"
+			],
+			[
+				"sho",
+				"shortestPathDistance	int"
+			],
+			[
+				"E",
+				"Evaluate(float time)	float"
+			],
+			[
+				"On",
+				"OnClearTilesSelection	OnClearTilesSelection"
+			],
+			[
+				"U",
+				"Unit	Unit"
+			],
+			[
+				"isA",
+				"isAvailableForMovement	bool"
+			],
+			[
+				"Select",
+				"SelectedMode	SelectedMode"
+			],
+			[
+				"base",
+				"baseIndex	int"
+			],
+			[
+				"leve",
+				"levelWidth	int"
+			],
+			[
+				"l",
+				"levelWidth	int"
+			],
+			[
+				"bas",
+				"baseIndex	int"
+			],
+			[
+				"tra",
+				"traverseDepth	int"
+			],
+			[
+				"UnityE",
+				"UnityEngine	UnityEngine"
+			],
+			[
+				"flyO",
+				"flyOverRotationSpeed	float"
+			],
+			[
+				"Vecto",
+				"Vector3	Vector3"
+			],
+			[
+				"Vect",
+				"Vector3	Vector3"
+			],
+			[
+				"Camera",
+				"CameraController	CameraController"
+			],
+			[
+				"turn",
+				"turnTime	float"
+			],
+			[
+				"Game",
+				"GameScenario	GameScenario"
+			],
+			[
+				"spa",
+				"spawnOriginHex	Transform"
+			],
+			[
+				"Re",
+				"red	Color { get; }"
+			],
+			[
+				"Draw",
+				"DrawRay(Ray r)	void"
+			],
+			[
+				"IEnum",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"Rr",
+				"ReserveHex()	bool"
+			],
+			[
+				"reser",
+				"isReserved	bool"
+			],
+			[
+				"hex",
+				"hexes	Transform[]"
+			],
+			[
+				"Hex",
+				"HexUnit	HexUnit"
+			],
+			[
+				"Ray",
+				"Raycast(Vector3 origin, Vector3 direction)	bool"
+			],
+			[
+				"object",
+				"objectHit	Transform"
+			],
+			[
+				"Qua",
+				"Quaternion	Quaternion"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Tracely/Example/Scripts/TracelyExample.cs",
+			"settings":
+			{
+				"buffer_size": 615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Plugins/TracelyManager.cs",
+			"settings":
+			{
+				"buffer_size": 4433,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "for",
+		"selected_items":
+		[
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"form",
+				"Format CSS: Expanded"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"java",
+				"Format: Javascript"
+			],
+			[
+				"javascr",
+				"Format: Javascript"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"meteor",
+				"Snippet: Meteor.user()"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"omnisharp",
+				"OmniSharpSublime: Build"
+			],
+			[
+				"q",
+				"CoolFormat: Quick Format"
+			],
+			[
+				"quick",
+				"CoolFormat: Quick Format"
+			],
+			[
+				"qui",
+				"CoolFormat: Quick Format"
+			],
+			[
+				"omnis",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"forma",
+				"CoolFormat: Quick Format"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Key Bindings – Default"
+			],
+			[
+				"coolfor",
+				"CoolFormat: Quick Format"
+			],
+			[
+				"cool format",
+				"CoolFormat: Selected Format"
+			],
+			[
+				"formatter",
+				"SublimeAStyleFormatter: Format Current File"
+			],
+			[
+				"sublimefo",
+				"SublimeAStyleFormatter: Format Current File"
+			],
+			[
+				"omnisharp res",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"terminal",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"packageinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"c",
+				"Build: Cancel"
+			],
+			[
+				"run",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"buil",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"omnish",
+				"OmniSharpSublime: Fix Usings"
+			],
+			[
+				"omni",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"omnishar",
+				"OmniSharpSublime: Clean"
+			],
+			[
+				"project",
+				"Project: Refresh Folders"
+			],
+			[
+				"server",
+				"OmniSharpSublime: Show Server Output"
+			],
+			[
+				"build",
+				"OmniSharpSublime: Build"
+			],
+			[
+				"om",
+				"OmniSharpSublime: Run Single Test"
+			],
+			[
+				"packageins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"theme",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 155.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rafal/Unity Projects/TracelyUnityAndroid",
+		"/Users/rafal/Unity Projects/TracelyUnityAndroid/Assets",
+		"/Users/rafal/Unity Projects/TracelyUnityAndroid/Assets/Plugins",
+		"/Users/rafal/Unity Projects/TracelyUnityAndroid/Assets/Tracely",
+		"/Users/rafal/Unity Projects/TracelyUnityAndroid/Assets/Tracely/Example",
+		"/Users/rafal/Unity Projects/TracelyUnityAndroid/Assets/Tracely/Example/Scripts"
+	],
+	"file_history":
+	[
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/bSpot/bSpotMyManager.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/loadingCircle.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/mainSteering.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/OnClickGotobSpotProfile.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/LoggedInRedirect.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/BSpotShowOnlyIfLogged.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/bSpot/b Spot Unity Plugin/BSpotManager.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/Social/openURL1.js",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/GraphicsSettingsManager.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/Scripts/GUI/ScionWindow.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/Scripts/ColorGrading.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/Scripts/GUI/ScionGUIUtil.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/ScionPostProcess.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/GameOverShare.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/Scripts/ScionGraphics.cs",
+		"/Users/rafal/Ionic/this-or-that/www/js/app.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Plugins/NGUI/Tweening/UITweener.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/Resources/Shaders/Downsample.shader",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/ContinousMovement.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/Scripts/VirtualCamera.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/ScionPostProcess/Resources/Shaders/VirtualCamera.shader",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Glitch/GlitchEffect.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Standard Assets/Image Effects (Pro Only)/Fisheye.js",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/EffectsController.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Temp/Compiled-VirtualCamera.shader",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/upgrades/upgradesFramework.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/deactivateOnClick.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/buttonDisabler.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/timeSwitcher.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/bSpotGamePlayMessage.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/Social/bSpotAccountLoggedOrNot.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/Social/facebookPostMsgAndLink.cs",
+		"/Users/rafal/Ionic/this-or-that/www/templates/voting.html",
+		"/Users/rafal/Ionic/this-or-that/www/css/style.css",
+		"/Users/rafal/Ionic/this-or-that/www/js/hmac-sha512.js",
+		"/Users/rafal/Ionic/this-or-that/www/index.html",
+		"/Users/rafal/Ionic/this-or-that/www/js/halfheight.js",
+		"/Users/rafal/Ionic/this-or-that/www/templates/intro.html",
+		"/Users/rafal/Ionic/this-or-that/www/templates/main.html",
+		"/Users/rafal/Downloads/nouvelle_vague_final.ttf",
+		"/Users/rafal/Ionic/tabs/www/index.html",
+		"/Users/rafal/Ionic/tabs/www/js/app.js",
+		"/Users/rafal/Ionic/myApp/www/index.html",
+		"/Users/rafal/Ionic/myApp/www/css/style.css",
+		"/Users/rafal/Ionic/myApp/www/js/app.js",
+		"/Users/rafal/Ionic/myApp/www/templates/tab-account.html",
+		"/Users/rafal/Ionic/myApp/www/templates/tabs.html",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Extensions/IOSNative/Market/Templates/IOSStoreKitResult.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/iOSInAppClick.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/upgrades/IABManager.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/RestorePurchases.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/iOSInAppManager.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/upgrades/IABClick.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Extensions/IOSNative/xExample/Scripts/Billing/PaymentManagerExample.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/upgrades/labels.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Extensions/IOSNative/xExample/Scripts/Billing/MarketExample.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/pauseOrOptions.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/upgrades/modulePurchase.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/bSpotPanelManager.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/notificationsBar.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/panelpokasz.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/escapeHW.js",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/EventSystemDebugger.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/ContinousRotation.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/CheckpointContainer.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/Debugger.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/SoundEngineChild.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/TiltPanel.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/EventsManager.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/SoundEngine.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/ThemeManager.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/CubePointsCreator.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/CatmullRomSpline.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/PropPoolObject.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/OpponentsHud.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/bSpot/Example/DemoSceneManager.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/bSpot/b Spot Unity Plugin/BSpotError.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/bSpot/b Spot Unity Plugin/HTTPRequests/BSpotHTTPRequest.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/upgrades/packPrices.js",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Scripts/MyGameCenterManager.cs",
+		"/Users/rafal/Meteor/TwitterStreamingApp/twitter-streaming-app/twitter-streaming-app.css",
+		"/Users/rafal/Meteor/TwitterStreamingApp/twitter-streaming-app/twitter-streaming-app.html",
+		"/Users/rafal/Meteor/TwitterStreamingApp/twitter-streaming-app/twitter-streaming-app.js",
+		"/Users/rafal/Meteor/TwitterStreamingApp/twitter-streaming-app/tweet.css",
+		"/Users/rafal/Documents/VoxelRush_WP8_bSpot-1/Assets/Plugins/iTween.cs",
+		"/Users/rafal/Documents/VR-bSpot-oldPlugin-backup/Assets/Extensions/IOSNative/Resources/IOSNativeSettings.asset",
+		"/Users/rafal/Documents/VoxelRush_WP8_bSpot-1/Assets/Scripts/GoogleAnalyticsEventOnClick.js",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/PreferencesManager.cs",
+		"/Users/rafal/Documents/VoxelRush_WP8_bSpot-1/Assets/Scripts/mainSteering.js",
+		"/Users/rafal/Documents/VoxelRush_WP8_bSpot-1/Assets/bSpot/b Spot Unity Plugin/CustomSettings.cs",
+		"/Users/rafal/Documents/VoxelRush_WP8_bSpot-1/Assets/Scripts/CustomUrlScheme.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/PreferencesSubscriber.cs",
+		"/Users/rafal/Documents/VoxelRush_WP8_bSpot/Assets/UniWebView/Script/Helper/UniWebViewHelper.cs",
+		"/Users/rafal/Documents/VoxelRush_WP8_bSpot-1/Assets/Scripts/BSpotURLConfiguration.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/DistanceLabel.cs",
+		"/Users/rafal/Desktop/bitstamp_sockets.py",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/_MKGlowSystem/_Shader/_MKBase/MK_Standard.shader",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/CubePointsCreator.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/RegionByAdUnlocker.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/CheckpointsCreator.cs",
+		"/Users/rafal/Downloads/json.json",
+		"/Users/rafal/Meteor/MeteorTutorial/MeteorTutorial.js",
+		"/Users/rafal/Documents/TurnBasedGame_CDProjekt/Assets/Scripts/GameScenario.cs",
+		"/Users/rafal/Node/Dbg.io/public/index.html",
+		"/Users/rafal/Node/Dbg.io/server.js",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/Unit.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/TerrainGenerator.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/RaySelector.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/Explosion.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/HitExplosion.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/GameScenario.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/CameraController.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/Bullet.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/HexUnit.cs",
+		"/Users/rafal/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/.gitignore",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/AstarAI.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/AstarPathfindingProject/Core/AstarPath.cs",
+		"/Users/rafal/Library/Application Support/Sublime Text 3/Packages/QuickMenu/QuickMenu_main.py",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/AstarPathfindingProject/Editor/AstarUpdateWindow.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/.gitignore",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/HexCreator.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/Scripts/CatmullRomSpline.cs",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/TurnBasedGame_CDProjekt.sln",
+		"/Users/rafal/Unity Projects/TurnBasedGame_CDProjekt/Assets/TurnBased.sublime-project",
+		"/Users/rafal/Desktop/sgh.py",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/Screenshooter.cs",
+		"/Users/rafal/Unity Projects/ProceduralRacerProject/Assets/Scripts/SideColliderMeshGenModule.cs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"loggedout",
+			"loginstatus",
+			"Bonus gate area. Hit cubes to see what youve won",
+			"rozbiegowka",
+			"cancell",
+			"SessionTimeoutModal",
+			"shareButton",
+			"bSpotCube\"",
+			"harvest",
+			"highspeed",
+			"accel",
+			"SessionTimeoutModal",
+			"secondchance",
+			"gamemessage",
+			"OnPlatformLoginStatusChanged",
+			"bonus gate ",
+			"gamemessage",
+			"notification",
+			"bspot",
+			"popup",
+			"harvest",
+			"rozbiegowka",
+			"skipgrab",
+			"state",
+			"no ",
+			"endevent",
+			"musicCome",
+			"tint",
+			"skipgrab",
+			"labels",
+			"crook(",
+			"crook",
+			"crooke",
+			"timeout",
+			"skipgrab",
+			"score +=",
+			"straighten",
+			"endevent",
+			"isbSpotAfterRound",
+			"isbSpotAfterRound\n",
+			"isbSpotAfterRound",
+			"isBspotAfterRound",
+			"straighten(",
+			"secondchance",
+			"wager",
+			"gameover",
+			"CubesCollected",
+			"endofframe",
+			"loginstatus",
+			"OnBulkRemoveTokenActionFinished",
+			"onplaytok",
+			"response",
+			"Debug.Log",
+			"session",
+			"timeout",
+			"iTweenBSpot",
+			"iTweenBSpot.",
+			"itweenb",
+			"googleana",
+			"roll_25_profit",
+			"gameover(",
+			"gameover",
+			"aim",
+			"onUnitChange",
+			"gamestart",
+			"OnUnitChange",
+			"OnUnitSelected",
+			"OnUnit",
+			"nextturn",
+			"myRenderer",
+			"ShowAttackInformation",
+			"normalColor",
+			"activeColor",
+			"isavailable",
+			"ishi",
+			"actionBudget",
+			"maxTraverseDistance",
+			"unitsSpawn",
+			"nextturn",
+			"distance",
+			"unitspawn",
+			"Gamestart",
+			"onsplineupdated",
+			"printnodetimes",
+			"recalculatenodetimes",
+			"meshpart",
+			"mathutils",
+			"-1",
+			"font-size",
+			"remove",
+			"gc",
+			"generatetriangles",
+			"generate",
+			"kg",
+			"canionmeshoffset",
+			"cavelength",
+			"instance",
+			"themes",
+			"initialPos",
+			"trianglesGenerated",
+			"distance",
+			"initialPos",
+			"mytransform",
+			"vertices",
+			"isused",
+			"yield",
+			"}\n",
+			"for",
+			"previous",
+			"visualDebugCube",
+			"setmesh",
+			"new mesh",
+			"changevertices",
+			"vertices",
+			"fwdSpeed",
+			"offset",
+			"calculateCurveLength",
+			"args",
+			"calculateCurveLength",
+			");\n",
+			"startGameButton",
+			"camera",
+			"settheme",
+			"isJoystickConnected",
+			"shieldpad",
+			"ControllerButtons",
+			"shieldpad",
+			"submit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Logger",
+			"",
+			"Add",
+			"triangles",
+			"GetTriangleIndices",
+			",",
+			";",
+			",",
+			";",
+			",",
+			";",
+			",",
+			";",
+			",",
+			";",
+			"// Profiler",
+			"char[20]",
+			"DataspinManagerOld",
+			"dataspinManager",
+			",",
+			":",
+			"currentPos",
+			",",
+			":",
+			",",
+			":",
+			",",
+			":",
+			",",
+			":",
+			"",
+			",",
+			":",
+			", ",
+			"",
+			", ",
+			",",
+			", ",
+			".",
+			";",
+			", ",
+			",",
+			", ",
+			"TracelyManager"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/rafal/Unity Projects/TracelyUnityAndroid"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Tracely/Example/Scripts/TracelyExample.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"oops":
+							{
+								"140,146": "'Random' is not a known identifier",
+								"147,152": "'?' does not contain a definition for 'Range'",
+								"163,164": "'?' does not contain a definition for 'Range'",
+								"164,172": "'?' does not contain a definition for 'ToString'",
+								"174,175": "Cannot convert from ? to System.String",
+								"175,176": "Invocation error: ArgumentTypeMismatch",
+								"6,17": "'UnityEngine' is not a known identifier",
+								"76,89": "'MonoBehaviour' is not a known identifier"
+							},
+							"syntax": "Packages/C#/C#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Plugins/TracelyManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1187,
+								1187
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"oops":
+							{
+								"1004,1005": "'?' does not contain a definition for 'AddComponent'",
+								"1006,1007": "Cannot convert from ? to TracelyManager",
+								"102,115": "'MonoBehaviour' is not a known identifier",
+								"1058,1075": "'DontDestroyOnLoad' is not a known identifier",
+								"1081,1091": "'TracelyManager' does not contain a definition for 'gameObject'",
+								"1092,1093": "'TracelyManager' does not contain a definition for 'DontDestroyOnLoad'",
+								"1161,1172": "'UnityEngine' is not a known identifier",
+								"1173,1178": "'?' does not contain a definition for 'Debug'",
+								"1179,1182": "'?' does not contain a definition for 'Log'",
+								"1207,1208": "'?' does not contain a definition for 'Log'",
+								"1369,1380": "'Application' is not a known identifier",
+								"1381,1400": "'?' does not contain a definition for 'RegisterLogCallback'",
+								"1429,1430": "'?' does not contain a definition for 'RegisterLogCallback'",
+								"1897,1904": "'LogType' is not a known identifier",
+								"1920,1927": "'LogType' is not a known identifier",
+								"1928,1934": "'?' does not contain a definition for 'Assert'",
+								"1938,1942": "Error: Boolean",
+								"1946,1953": "'LogType' is not a known identifier",
+								"1954,1963": "'?' does not contain a definition for 'Exception'",
+								"1967,1971": "Error: Boolean",
+								"1975,1982": "'LogType' is not a known identifier",
+								"1983,1988": "'?' does not contain a definition for 'Error'",
+								"1992,1996": "Error: Boolean",
+								"2041,2051": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"2073,2081": "'LogType' does not contain a definition for 'ToString'",
+								"2083,2084": "'LogType' does not contain a definition for 'ToString'",
+								"2090,2091": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"2384,2394": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"2463,2464": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"2507,2518": "'UnityEngine' is not a known identifier",
+								"2519,2524": "'?' does not contain a definition for 'Debug'",
+								"2525,2528": "'?' does not contain a definition for 'Log'",
+								"2615,2616": "'?' does not contain a definition for 'Log'",
+								"2718,2728": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"2811,2812": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"2907,2917": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"3000,3001": "'AndroidJavaClass' does not contain a definition for 'CallStatic'",
+								"335,351": "'AndroidJavaClass' is not a known identifier",
+								"385,402": "'AndroidJavaObject' is not a known identifier",
+								"438,454": "'AndroidJavaClass' is not a known identifier",
+								"4392,4402": "'SystemInfo' is not a known identifier",
+								"4403,4425": "Error: String",
+								"475,492": "'AndroidJavaObject' is not a known identifier",
+								"515,531": "'AndroidJavaClass' is not a known identifier",
+								"554,571": "'AndroidJavaObject' is not a known identifier",
+								"591,608": "'AndroidJavaObject' is not a known identifier",
+								"6,17": "'UnityEngine' is not a known identifier",
+								"894,904": "'GameObject' is not a known identifier",
+								"914,924": "'GameObject' is not a known identifier",
+								"926,927": "'GameObject' is not a known identifier",
+								"933,937": "'?' does not contain a definition for 'name'",
+								"949,950": "Cannot convert from System.String to ?"
+							},
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 18.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 311.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.cc":
+	{
+		"height": 158.0
+	},
+	"output.exec":
+	{
+		"height": 202.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 161.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cont",
+				"Assets/Scripts/ContinousMovement.cs"
+			],
+			[
+				"con",
+				"Assets/Scripts/ContinousMovement.cs"
+			],
+			[
+				"conti",
+				"Assets/Scripts/ContinousMovement.cs"
+			],
+			[
+				"gamesc",
+				"Assets/Scripts/GameScenario.cs"
+			],
+			[
+				"gamesce",
+				"Assets/Scripts/GameScenario.cs"
+			],
+			[
+				"explo",
+				"Assets/Scripts/Explosion.cs"
+			],
+			[
+				"bullet",
+				"Assets/Scripts/Bullet.cs"
+			],
+			[
+				"uni",
+				"Assets/Scripts/Unit.cs"
+			],
+			[
+				"unit",
+				"Assets/Scripts/Unit.cs"
+			],
+			[
+				".",
+				"Assets/Scripts/.gitignore"
+			],
+			[
+				"ray",
+				"Assets/Scripts/RaySelector.cs"
+			],
+			[
+				"splie",
+				"Assets/Scripts/CatmullRomSpline.cs"
+			],
+			[
+				"theme",
+				"Assets/Scripts/ThemeManager.cs"
+			],
+			[
+				"catmullrom",
+				"Assets/Scripts/CatmullRomNode.cs"
+			],
+			[
+				"catmullromspline",
+				"Assets/Scripts/CatmullRomSpline.cs"
+			],
+			[
+				"thememanager",
+				"Assets/Scripts/ThemeManager.cs"
+			],
+			[
+				"form",
+				"Library/LibraryFormatVersion.txt"
+			],
+			[
+				"cave",
+				"Assets/Scripts/CaveGenerator.cs"
+			],
+			[
+				"cavegener",
+				"Assets/Scripts/CaveGenerator.cs"
+			],
+			[
+				"nodespaw",
+				"Assets/Scripts/NodeSpawner.cs"
+			],
+			[
+				"prop",
+				"Assets/Scripts/PropPoolObject.cs"
+			],
+			[
+				"meshgenera",
+				"Assets/Scripts/MeshGenerator.cs"
+			],
+			[
+				"zaxis",
+				"Assets/Scripts/ZAxisFollower.cs"
+			],
+			[
+				"panel",
+				"Scripts/PanelsManager.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

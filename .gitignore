@@ -18,6 +18,8 @@ obj/
 *.user
 *.unityproj
 *.booproj
+*.sublime-project
+*.apk
 
 # ============ #
 # OS generated #
